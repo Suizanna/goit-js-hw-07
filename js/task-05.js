@@ -14,12 +14,8 @@ function changeName(event) {
     } else {
         outputRef.textContent = event.target.value;
     }
-   
+  
 }
 
   console.log(outputRef.textContent);
-
-
-    // outputRef.textContent = event.value === '' ? 'незнакомец' : event.target.value;
-
-
+     // outputRef.textContent = event.target.value; === '' ? 'незнакомец' : event.value;
