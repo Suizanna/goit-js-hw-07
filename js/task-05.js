@@ -12,11 +12,13 @@ function changeName(event) {
     if(event.value === '' ) {
         outputRef.textContent =  'незнакомец';
     } else {
-        nameOutputRef.textContent = event.value;
+        outputRef.textContent = event.value;
     }
-     // outputRef.textContent = event.value === '' ? 'незнакомец' : event.value;
+   
 }
 
   console.log(outputRef.textContent);
+
+    // outputRef.textContent = event.value === '' ? 'незнакомец' : event.value;
 
 
