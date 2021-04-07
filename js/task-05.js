@@ -5,7 +5,6 @@
 const inputRef = document.querySelector('#name-input');
 const outputRef = document.querySelector('#name-output');
 
-// 2 вар
 inputRef.addEventListener('input', changeName); 
 
 function changeName(event) {
