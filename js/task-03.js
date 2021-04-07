@@ -37,24 +37,6 @@ galleryRef.insertAdjacentHTML(`beforeend`, createImages);
 galleryRef.setAttribute("style", "list-style-type:none;");
 console.log(createImages);
 
-// 2
-// const getListId = document.getElementById('gallery');
 
-// getListId.style.display = 'flex';
-// getListId.style.alignItems = 'center';
-// getListId.style.justifyContent = 'space-between';
-
-// const createListItem = images.map(image => {
-//   const itemEl = document.createElement('li');
-//   itemEl.style.listStyle = 'none';
-//   itemEl.insertAdjacentHTML(
-//     'afterbegin',
-//     `<img src='${image.url}' alt='${image.alt}' width='400px'>`,
-//   );
-
-//   return itemEl;
-// });
-
-// getListId.append(...createListItem);
 
 
