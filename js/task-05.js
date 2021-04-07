@@ -19,6 +19,7 @@ function changeName(event) {
 
   console.log(outputRef.textContent);
 
-    // outputRef.textContent = event.value === '' ? 'незнакомец' : event.value;
+
+    // outputRef.textContent = event.value === '' ? 'незнакомец' : event.target.value;
 
 
