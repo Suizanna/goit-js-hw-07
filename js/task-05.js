@@ -18,4 +18,4 @@ function changeName(event) {
 }
 
   console.log(outputRef.textContent);
-     // outputRef.textContent = event.target.value; === '' ? 'незнакомец' : event.value;
+     // outputRef.textContent = event.target.value; === '' ? 'незнакомец' : event.target.value;
