@@ -9,10 +9,10 @@ const outputRef = document.querySelector('#name-output');
 inputRef.addEventListener('input', changeName); 
 
 function changeName(event) {
-    if(event.value === '' ) {
+    if(event.target.value === '' ) {
         outputRef.textContent =  'незнакомец';
     } else {
-        outputRef.textContent = event.value;
+        outputRef.textContent = event.target.value;
     }
    
 }
