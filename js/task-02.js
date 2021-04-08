@@ -16,11 +16,8 @@ const ingredients = [
 
   const makeIngredientsList = ingredients.map(ingredient => {
         const itemsRef =  document.createElement('li'); //создаем <li> теkстовым значением которого будет itemsRef.textContent = ingredient
-        itemsRef.textContent = ingredient;  // то что приходит из массива 
-            console.log(itemsRef)
-            return itemsRef;
-      });
-      
-  ingredientslistRef.append(...makeIngredientsList);
-
-
+        itemsRef.textContent = ingredient;  
+    console.log(itemsRef);
+});
+    
+ingredientslistRef.append(...makeIngredientsList);
