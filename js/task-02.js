@@ -1,6 +1,8 @@
 "use strict";
-// для каждого элемента массива ingredients создастm отдельный li,
-// вставитm все li за одну операцию в список ul.ingredients.
+// В HTML есть пустой список ul#ingredients.
+// <ul id="ingredients"></ul>
+// Для каждого элемента массива ingredients создаст отдельный li,
+// Вставит все li за одну операцию в список ul.ingredients.
 // Для создания DOM-узлов используй document.createElement().
 
 const ingredients = [
